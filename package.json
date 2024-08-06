@@ -1,0 +1,67 @@
+{
+   "name": "node-express-api-boilerplate",
+   "version": "1.0.0",
+   "description": "A Node.js app for building RESTful APIs using Express.",
+   "keywords": [
+      "node",
+      "node.js",
+      "boilerplate",
+      "express",
+      "rest",
+      "api",
+      "mongodb",
+      "mongoose",
+      "es6",
+      "es7",
+      "docker",
+      "eslint",
+      "prettier"
+   ],
+   "main": "src/index.js",
+   "type": "module",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yasingokhanerdogan/node-express-api-boilerplate.git"
+   },
+   "author": "Yasin Gökhan Erdoğan <yasingokhanerdogan@gmail.com>",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/yasingokhanerdogan/node-express-api-boilerplate/issues"
+   },
+   "homepage": "https://github.com/yasingokhanerdogan/node-express-api-boilerplate#readme",
+   "scripts": {
+      "dev": "(SET NODE_ENV=development) && nodemon src/index.js",
+      "start": "(SET NODE_ENV=production) && node src/index.js",
+      "lint": "eslint .",
+      "lint:fix": "eslint . --fix",
+      "prettier": "npx prettier --check src/**/*{js,ts,css,jsx,tsx,scss}",
+      "prettier:fix": "npx prettier --write src/**/*{js,ts,css,jsx,tsx,scss}"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.20.2",
+      "cors": "^2.8.5",
+      "cross-env": "^7.0.3",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "express-validator": "^7.1.0",
+      "helmet": "^7.1.0",
+      "http-status": "^1.7.4",
+      "iyzipay": "^2.0.61",
+      "joi": "^17.13.3",
+      "jsonwebtoken": "^9.0.2",
+      "moment": "^2.30.1",
+      "mongoose": "^8.5.2",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "nanoid": "^5.0.7",
+      "nodemailer": "^6.9.14",
+      "socket.io": "^4.7.5",
+      "winston": "^3.13.1"
+   },
+   "devDependencies": {
+      "faker": "^6.6.6",
+      "nodemon": "^3.1.4",
+      "prettier": "^3.3.3"
+   }
+}
